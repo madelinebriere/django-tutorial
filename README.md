@@ -46,7 +46,7 @@ For a basic startup, run the following commands:
 ```bash
 django-admin startproject mysite
 cd mysite
-python manage.py server
+python manage.py runserver
 ```
 And navigate to 127.0.0.0:8000.
 
