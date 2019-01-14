@@ -49,3 +49,6 @@ Steps in exploration:
 * Setting up a database
 * Creating and activating models
 * Exploring users/admin
+
+### Review the documentation
+The Django documentation is available [here](https://docs.djangoproject.com/en/2.1/). It reviews the mechanics behind model, view and template layers, the development process, automated user interfaces, etc.
