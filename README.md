@@ -48,7 +48,7 @@ django-admin startproject mysite
 cd mysite
 python manage.py runserver
 ```
-And navigate to 127.0.0.1:8000.
+And navigate to 127.0.0.1:8000. Note that to see the start-up page, you will need to have your display linked to your VM or be running the VM graphically.
 
 Steps in exploration:
 * Creating the project
