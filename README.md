@@ -48,7 +48,7 @@ django-admin startproject mysite
 cd mysite
 python manage.py runserver
 ```
-And navigate to 127.0.0.0:8000.
+And navigate to 127.0.0.1:8000.
 
 Steps in exploration:
 * Creating the project
