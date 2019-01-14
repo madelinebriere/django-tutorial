@@ -19,8 +19,9 @@ Installation instructions are linked [here](https://docs.djangoproject.com/en/2.
 
 Steps:
 * Login to VM
-* Install Python and Pip
+* Install Python, Pip, and other libaries.
 ```bash
+sudo apt-get update
 sudo apt-get install pip
 sudo apt-get install python
 sudo apt-get install python3-venv
@@ -41,6 +42,14 @@ $ python
 ### Explore the tutorial
 The tutorial is linked [here](https://docs.djangoproject.com/en/2.1/intro/tutorial01/).
 
+For a basic startup, run the following commands:
+```bash
+django-admin startproject mysite
+cd mysite
+python manage.py server
+```
+And navigate to 127.0.0.0:8000.
+
 Steps in exploration:
 * Creating the project
 * Launching a development server
@@ -49,6 +58,9 @@ Steps in exploration:
 * Setting up a database
 * Creating and activating models
 * Exploring users/admin
+
+### Launch to production
+Use the tutorial [here](https://codingstartups.com/deploy-django-nginx-gunicorn-postgresql-supervisor/) to deploy your project to production. It is *not* recommended to use the built-in Django development server as the production server. Third-party tools should be used for this purpose instead.
 
 ### Review the documentation
 The Django documentation is available [here](https://docs.djangoproject.com/en/2.1/). It reviews the mechanics behind model, view and template layers, the development process, automated user interfaces, etc.
