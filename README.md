@@ -1,7 +1,7 @@
 # Django Tutorial
 ## Maddie Briere
 ### What is Django?
-Django is "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design." It is free and open source.
+Django is "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design." It is free, open-source, and very secure. It removes the hassle of Web development and let's you focus on your own app development.
 
 ### Why use Django?
 Django has advantages and disadvantages like any framework. This [blog](https://hackernoon.com/advantages-and-disadvantages-of-django-499b1e20a2c5) explores some of the pros and cons.
