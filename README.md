@@ -44,7 +44,6 @@ The tutorial is linked [here](https://docs.djangoproject.com/en/2.1/intro/tutori
 
 For a basic startup, run the following commands:
 ```bash
-sudo apt-get install python-django-common
 django-admin startproject mysite
 cd mysite
 python manage.py runserver
